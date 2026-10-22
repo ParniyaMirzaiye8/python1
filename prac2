@@ -1,0 +1,40 @@
+firstName = "parniya"
+lastName = "mirzaie"
+
+fullName = f"{firstName.title}{lastName.title}"
+
+message = f"Dear {fullName} welcome to our application"
+print(message)
+
+google_url = "https://google.com"
+
+print(google_url.removeprefix("https://"))
+python80_url = "https://python80.ir"
+simple_url = python80_url.removeprefix("https;//")
+print(simple_url)
+
+print(4+2)
+print("4"+"2")
+print(4-2)
+print(4*2)
+print(4/2)
+print(4**2)
+print(4%2)
+
+phone_price=160-000-000
+print(phone_price)
+
+
+x, y, z = 3, 5, 8
+print(x, y, z)
+
+phones = ["iphone", "samsung", "xiaomi"]
+
+message = f"my favorite phone is {phones[0].upper()}"
+print(message)
+
+languages = ["english, french, germany"]
+
+languages[2] = "spanish"
+print(languages[2])
+print(languages)

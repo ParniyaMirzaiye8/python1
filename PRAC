@@ -1,0 +1,7 @@
+languages=["english","french","turkey","persion"]
+print(languages[1].title())
+print(languages[2])
+print(languages[0].title())
+print(languages[-1])
+message=f"my favorite language is {languages[0].upper()}"
+print(message)

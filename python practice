@@ -1,0 +1,10 @@
+print("hello teacher")
+print("\thow are you?\t")
+print("\nwill you help me?\n")
+print("with programmig like=\n\tjs\n\tjava\n\tpython")
+
+Firstname = "parniya"
+lastname = "mirzaie"
+fullname = f"my full name is{Firstname.title()} {lastname.title()}"
+
+print(fullname)
